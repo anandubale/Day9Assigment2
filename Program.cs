@@ -60,7 +60,7 @@ namespace AddressBook
             //Uc3 ----To edit existed code
 
             ToEditContacts t1 = new ToEditContacts();
-            /*
+            
             Console.WriteLine("Enter Name You want to edit First Name type");
             t1.FirstName = Console.ReadLine();
             Console.WriteLine("First Name : " + t1.FirstName);
@@ -92,12 +92,33 @@ namespace AddressBook
             Console.WriteLine("Enter Name You want to edit First Name type");
             t1.EmailID = Console.ReadLine();
             Console.WriteLine("First Name : " + t1.EmailID);
-            */
-
+            
+            
             //uc4 --- To delete existing 
 
             t1.FirstName = null;
             Console.WriteLine("First Name : " + t1.FirstName);
+            t1.LastName = null;
+            Console.WriteLine("First Name : " + t1.LastName);
+
+            t1.ADDRESS = null;
+            Console.WriteLine("First Name : " + t1.ADDRESS);
+
+            t1.CITY = null;
+            Console.WriteLine("First Name : " + t1.CITY);
+
+            t1.STATE = null;
+            Console.WriteLine("First Name : " + t1.STATE);
+
+            t1.ZIPCode = null;
+            Console.WriteLine("First Name : " + t1.ZIPCode);
+
+            t1.PhoneNumber = null;
+            Console.WriteLine("First Name : " + t1.PhoneNumber);
+
+            t1.EmailID = null;
+            Console.WriteLine("First Name : " + t1.EmailID);
+
 
         }
     }
