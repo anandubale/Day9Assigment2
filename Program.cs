@@ -7,7 +7,7 @@ namespace AddressBook
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Adress Book PRogram in master Branch");
-
+            /*
             ToGetFullName myname = new ToGetFullName();
             
             FullAdress myadd = new FullAdress();
@@ -51,8 +51,54 @@ namespace AddressBook
                 Console.WriteLine("Mobile NUmber: " + MobileNumber.MOBILENUBER(MobileNo));
                 Console.WriteLine("Email ID: " + EMailId.EMAILID(EmailId));
                 Console.WriteLine("");
+            */
 
-            }
+
+
+            // }
+            
+            //Uc3 ----To edit existed code
+
+            ToEditContacts t1 = new ToEditContacts();
+            /*
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.FirstName = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.FirstName);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.LastName = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.LastName);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.ADDRESS = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.ADDRESS);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.CITY = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.CITY);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.STATE = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.STATE);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.ZIPCode = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.ZIPCode);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.PhoneNumber = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.PhoneNumber);
+
+            Console.WriteLine("Enter Name You want to edit First Name type");
+            t1.EmailID = Console.ReadLine();
+            Console.WriteLine("First Name : " + t1.EmailID);
+            */
+
+            //uc4 --- To delete existing 
+
+            t1.FirstName = null;
+            Console.WriteLine("First Name : " + t1.FirstName);
+
         }
     }
 }
